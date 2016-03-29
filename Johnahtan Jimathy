@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Johnathon Jimathy </title>
+		
+		<style type="text/css">
+
+		</style>
+		<script type="text/javascript">
+			function person(name, age){
+				this.name = name;
+				this.age = age;
+			}
+			var treva = new person(" Trevor Hodges ", 16)
+			var kaliki = new person (" Evan Kilki ", 17)
+
+			function validator(){
+				if(document.trevasForm.theBox.checked)
+					alert("Hrald");
+				else
+					alert("Wedron");
+			}
+		</script>
+	</head>
+	<body>
+		<a href="john">john</a>
+		<br />
+		<form name ="trevasForm">
+			<input type= "checkbox" name="theBox" />
+			<input type= "button" value="Press me!" onClick="validator()" />
+		</form>
+
+		<script type="text/javascript">
+		
+			
+
+
+			var chops = new Array(5);
+				chops[0] = " Hrald";
+				chops[1] =  " Wedron";
+				chops[2] = " Treva";
+				chops[3] =  " Kaliki";
+				chops[4] = " Marky ";
+
+			var pears = new Array()
+				pears[0] = " blue";
+				pears[1] =  " hotpockets";
+				pears[2] = " Skyrim";
+				
+							
+		
+		</script>
+
+
+	</body>
